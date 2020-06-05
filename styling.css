@@ -80,6 +80,7 @@ a {
 
 ul li {
   list-style-type: none;
+  margin-bottom: 2px;
 }
 
 h1 {
@@ -155,13 +156,14 @@ footer {
   flex-flow: row nowrap;
   align-items: flex-start;
 }
-.footer .footer__address i {
-  margin: 1px 12px 0 2px;
-}
 
 i {
   margin: 1px 10px 0 0;
   font-size: 1.6rem;
+}
+
+i.fa-map-marker-alt {
+  margin: 1px 12px 0 2px;
 }
 
 .text {

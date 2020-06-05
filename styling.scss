@@ -84,6 +84,7 @@ a {
 
 ul li {
   list-style-type: none;
+  margin-bottom: 2px;
 }
 
 // Header
@@ -167,9 +168,6 @@ footer {
       flex-flow: row nowrap;
       align-items: flex-start;
     }
-    i {
-      margin: 1px 12px 0 2px;
-    }
   }
 }
 
@@ -178,6 +176,9 @@ i {
   font-size: 1.6rem;
 }
 
+i.fa-map-marker-alt {
+  margin: 1px 12px 0 2px;
+}
 // Content without image
 
 .text {
