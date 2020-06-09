@@ -82,6 +82,11 @@ a {
   text-decoration: none;
 }
 
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
 ul li {
   list-style-type: none;
   margin-bottom: 2px;
@@ -159,6 +164,11 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
+  text-decoration: none;
+}
+.footer .footer__address ul:hover,
+.footer .footer__address ul:focus {
+  text-decoration: underline;
 }
 
 i {
