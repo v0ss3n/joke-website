@@ -27,6 +27,10 @@ img {
   height: auto;
 }
 
+.mobile {
+  display: none;
+}
+
 h1 {
   font-family: mostra-nuova, sans-serif;
   font-weight: 700;
@@ -101,7 +105,6 @@ h1 {
 }
 
 // Main
-
 
 nav {
   width: 270px;
@@ -187,7 +190,7 @@ i.fa-map-marker-alt {
 }
 
 @media screen and (max-width: 768px) {
-  .main, 
+  .main,
   .content {
     flex-flow: row wrap;
 
@@ -218,11 +221,10 @@ i.fa-map-marker-alt {
     order: 2;
   }
 
-.text {
-  width: 100%;
-  margin: 0;
-}
-  
+  .text {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 599px) {
@@ -240,6 +242,13 @@ i.fa-map-marker-alt {
     font-size: 1.8rem;
   }
 
+  .mobile {
+    display: initial;
+  }
+  .desktop {
+    display: none;
+  }
+
   .index article,
   .index section,
   article,
@@ -250,11 +259,10 @@ i.fa-map-marker-alt {
 
   .index article h2 {
     margin-top: 24px;
-
   }
 
   .main {
-    margin: 30px 0 350px  
+    margin: 30px 0 350px;
   }
 
   .footer-title {

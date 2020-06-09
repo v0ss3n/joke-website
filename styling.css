@@ -23,6 +23,10 @@ img {
   height: auto;
 }
 
+.mobile {
+  display: none;
+}
+
 h1 {
   font-family: mostra-nuova, sans-serif;
   font-weight: 700;
@@ -221,6 +225,14 @@ i.fa-map-marker-alt {
   nav h3,
 footer h2 {
     font-size: 1.8rem;
+  }
+
+  .mobile {
+    display: initial;
+  }
+
+  .desktop {
+    display: none;
   }
 
   .index article,
